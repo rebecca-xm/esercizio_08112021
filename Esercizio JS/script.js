@@ -70,6 +70,9 @@ const planetDiameter = (planets) => {
     return planets
 }
 
+const nuoviNomi = solarSystem.map(itaName)
+console.log(nuoviNomi);
+
 const solSys = solarSystem.map(itaName).map(planetDiameter)
 console.log(solSys);
 // ------------------------ ESERCIZIO MODALE ------------------------ //
