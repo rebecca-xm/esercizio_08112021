@@ -1,0 +1,109 @@
+/* nome e cognome */
+header {
+    width: 96vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* body */
+body {
+    padding: 25px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* competenze e hobbies */
+.wrapper {
+    width: 96vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border-style: solid;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapperTwo {
+    width: 96vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border-style: solid;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+/* modale */
+ .modal {
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+    background: rgb(102, 137, 204);
+    color: black;
+    box-shadow: 0 0 8px black;
+
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.35s;
+}
+
+.modal h3 {
+    margin: 5px 0;
+    font-size: 1.6rem;
+}
+
+.modal p {
+    color: black;
+}
+
+.modal img {
+    width: 50px;
+}
+
+.modal__buttons {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal__buttons button {
+    padding: 7.5px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 5px;    
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#btn-accept {
+    background: rgb(73, 92, 201);
+}
+
+#btn-deny {
+    background: black;
+}
